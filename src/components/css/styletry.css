@@ -1,0 +1,90 @@
+
+.row{
+width: 100%;
+}
+.card{
+  height:500px
+}
+.hover-zoom {
+    transition: all 300ms ease 0s;
+    width: 28%;
+    padding: 30px;
+    overflow:hidden;
+  }
+  .hover-zoom:hover {
+    transform: scale(1.1);
+  }
+
+  .iconn{
+    border-radius: 0.2rem;
+    padding: 0;
+border-right: none;
+background: none
+  }
+     /* .tryy{
+       content: "";
+       position: absolute;
+       top: 18px;
+       right: 20px;
+       border: 8px solid;
+       border-color: blueviolet transparent transparent transparent;
+     } */
+
+     /* search componet */
+
+     .all{
+      display:flex;
+      margin:0%
+      
+     
+    
+    }
+    .location_btn{
+      padding-left:0
+    }
+    .primary dropdown-toggle{
+      padding: 7px 8px; 
+    }
+    .but{
+      background-color: white;
+      /* width: ; */
+      /* padding: px; */
+      border-radius: 0.6rem;
+      border-top-right-radius:0rem;
+      border-bottom-right-radius:0rem;
+      border-right: none;
+      margin-right: -10%;
+    }
+   
+     .flexx{
+      margin-left: -48.66%;
+     display: flex;
+
+    }
+     .fa {
+        
+     background-color: white;
+        font-size: 22px;
+       width: 2%;
+       height:7vh;
+        color:grey;
+       border-radius: 0rem;
+        border-right: none;
+        border-left: none;
+        border-color: black;
+     }
+     
+     .search{ 
+      width: 25rem;
+      height: 7vh;
+      border-radius: 0.6rem;
+      margin-left:1.5rem;
+      border-bottom-left-radius:0rem;
+      border-top-left-radius:0rem;
+      border-left: none;
+    }
+   .input-group{
+    height:7vh;
+   }
+  
+   

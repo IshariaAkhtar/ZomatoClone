@@ -1,0 +1,72 @@
+.home{
+  background-image:url("https://thumbs.dreamstime.com/b/abstract-food-background-top-view-dark-rustic-kitchen-table-wooden-cutting-board-cooking-spoon-frame-banner-137304354.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 50vh;
+  color:rgb(223, 33, 33);
+  text-align: center;
+}
+.home h1{
+    padding: 5%;
+}
+.home h4{
+    color:white;
+    text-align: center;
+}
+
+    
+.nav{
+    float: right;
+    display: flex;
+}
+.dropdown{
+  
+   width:55%;
+  margin-left:30%; 
+  padding-right:20px;
+  border-radius: 0.8rem;
+}
+  
+.asd{ 
+  width: 80%;
+  border-radius: 0.8rem;
+}
+.row{
+  box-sizing: border-box;
+  border-color: aqua;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  /* height: 300px; Should be removed. Only for demonstration */
+}
+.column img{
+  width: 15rem;
+  margin:7%;
+  border-radius: 0.8rem; 
+}
+
+.column{
+  overflow:hidden;
+}
+.hover-zoom {
+  transition: all 0.3s ease 0s;
+}
+.hover-zoom:hover {
+  transform: scale(1.25);
+}
+   
+
+
+.fa {
+  position:absolute;
+  
+  font-size: 22px;
+  color:#5078ef;
+  cursor: pointer;
+
+
+}
